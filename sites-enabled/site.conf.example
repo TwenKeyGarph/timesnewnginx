@@ -6,7 +6,7 @@ server {
     include                 	configuration/compression.conf;
     include                 	configuration/ssl.conf;
 
-    set                         $proxy_name EXAMLE.SERVICE;
+    set                         $proxy_name SOME.SERVICE;
     location / {
         proxy_pass 		http://${proxy_name};
         proxy_redirect 		off;

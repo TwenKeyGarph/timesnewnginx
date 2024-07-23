@@ -1,3 +1,7 @@
 /www/*
 /ssl/*
+/logs/*
+/sites-enabled/*
+
+!*.example
 !.gitkeep
